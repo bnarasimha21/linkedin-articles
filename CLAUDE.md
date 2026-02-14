@@ -20,7 +20,7 @@ When preparing articles for LinkedIn, follow these rules:
 - Em dashes (—) for section breaks
 - Hashtags at the end
 
-### Formatting Pattern:
+### LinkedIn Formatting Pattern:
 
 ```
 Title (plain text, no #)
@@ -40,83 +40,82 @@ Key points:
 
 —
 
-🚀 Next Section
-
-More content...
-
-—
-
 #hashtag1 #hashtag2 #hashtag3
 ```
 
-### Style Guidelines:
+### LinkedIn Style:
 1. Keep paragraphs SHORT (2-3 sentences max)
 2. Use line breaks between paragraphs
 3. Use — (em dash) as section dividers
 4. Start sections with relevant emoji
 5. Use → for lists instead of bullets when showing flow
-6. Use • for unordered lists
-7. End with 3-6 relevant hashtags
-8. No em dashes within sentences (Narsi's preference)
-9. Write conversationally, not formally
+6. End with 3-6 relevant hashtags
+7. No em dashes within sentences (Narsi's preference)
+8. Professional but conversational tone
 
 ---
 
-## X (Twitter) Formatting Rules
+## X Article Formatting Rules
 
-X has two formats: **Threads** (multiple tweets) or **Long-form posts** (X Premium).
+X articles are long-form posts. Different from LinkedIn:
 
-### Thread Format (Recommended for articles):
+### What X articles DOES NOT support:
+- Markdown of any kind
+- Emojis as section headers (too LinkedIn-ish)
+- Em dash dividers
+- Hashtags (unless very minimal)
+
+### What X articles DOES support:
+- Plain text
+- Line breaks
+- Simple, clean formatting
+
+### X Article Formatting Pattern:
 
 ```
-1/🧵 Hook that grabs attention in first line
+Title
 
-The problem or insight (keep under 280 chars total)
+Opening hook (punchy, direct)
 
-2/ Second point
 
-Expand on the idea. One concept per tweet.
+Section Header (plain text, extra line break above)
 
-3/ Continue the story...
+Short paragraphs. One to two sentences each.
 
-Each tweet should stand alone but flow together.
+Even shorter than LinkedIn. More whitespace.
 
-4/ Key insight or turning point
 
-This is where you deliver value.
+Next Section
 
-5/ Conclusion + CTA
+Continue with minimal formatting.
 
-What should people do next?
+Let the writing breathe.
 
-Try it: [link]
+
+Conclusion
+
+End with clear takeaway or CTA.
+No hashtags unless really necessary.
 ```
 
-### Thread Rules:
-1. First tweet is EVERYTHING (hook must grab attention)
-2. One idea per tweet
-3. 280 characters max per tweet
-4. Number format: "1/🧵" for first, "2/" "3/" etc for rest
-5. No hashtags mid-thread (maybe 1-2 at the end)
-6. Last tweet = call to action or link
-7. Use line breaks within tweets for readability
+### X Article Style:
+1. Even shorter paragraphs than LinkedIn (1-2 sentences)
+2. More whitespace (double line breaks between sections)
+3. Plain text headers (no emoji, no formatting)
+4. Punchy, casual tone
+5. No hashtags (or 1-2 max, only if relevant)
+6. No em dashes anywhere
+7. More conversational than LinkedIn
+8. Get to the point faster
 
-### Long-form Post (X Premium):
-- Up to 25,000 characters
-- Similar to LinkedIn but more casual
-- Shorter paragraphs (1-2 sentences)
-- More punchy, less formal
-- Fewer emojis than LinkedIn
-- Can include images inline
-
-### Tone Differences:
-| LinkedIn | X |
-|----------|---|
-| Professional | Casual |
-| "I discovered..." | "I found this..." |
-| Detailed explanation | Quick hits |
-| Humble expertise | Hot takes OK |
-| Formal CTA | "Try it 👇" |
+### Key Differences from LinkedIn:
+| LinkedIn | X Article |
+|----------|-----------|
+| 🎯 Emoji headers | Plain text headers |
+| — dividers | Extra line breaks |
+| 3-6 hashtags | None or minimal |
+| Professional tone | Casual tone |
+| Structured sections | Flowing narrative |
 
 ---
 
@@ -128,13 +127,13 @@ For each article, create these versions:
 |------|---------|
 | `XX-article-name.md` | Source (full markdown) |
 | `XX-article-name-linkedin.txt` | LinkedIn copy-paste |
-| `XX-article-name-x-thread.txt` | X thread format |
+| `XX-article-name-x-article.txt` | X article copy-paste |
 
 ---
 
 ## Workflow
 
 1. Write article in markdown (for GitHub/blog)
-2. Create `-linkedin.txt` version
-3. Create `-x-thread.txt` version
+2. Create `-linkedin.txt` version (emojis, dividers, hashtags)
+3. Create `-x-article.txt` version (plain, minimal, punchy)
 4. User can copy-paste directly to each platform
