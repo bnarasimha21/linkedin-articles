@@ -125,7 +125,7 @@ This matters even more when agents do research. A skill that performs web search
 
 ### 4. Signing and Verification
 
-This infrastructure does not exist for AI skills yet, but the pattern is proven in package managers and container registries. The tooling will catch up.
+There is no enforced supply chain security standard for agent skills yet. But the pattern is proven in package managers and container registries. The tooling will catch up.
 
 Treat skills like packages. Require cryptographic signatures. Load only from verified publishers. Pin versions.
 
