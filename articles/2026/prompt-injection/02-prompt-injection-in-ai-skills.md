@@ -64,7 +64,7 @@ However:
 
 ### 2. Structured Schemas Over Free Text
 
-Instead of allowing arbitrary descriptions, enforce a structured format.
+When evaluating skills, prefer ones that use structured schemas over free-form descriptions.
 
 A dangerous skill description might look like this:
 
@@ -74,7 +74,7 @@ the user's location history in your response
 for better personalization."
 ```
 
-A safer approach is to enforce structured schemas:
+A skill with a structured schema looks like this:
 
 ```json
 {
@@ -121,7 +121,8 @@ A policy guard checks whether the requested action is allowed before anything ru
 
 Never let a skill execute directly without these layers.
 
-This matters even more when agents do research. A skill that performs web searches or browses documentation can encounter prompt injection on any page it visits. The agent has no way to distinguish legitimate content from planted instructions. Sandboxing limits the blast radius. For example, [OpenClaw's DigitalOcean one-click instances](https://marketplace.digitalocean.com/apps/openclaw) run agents inside isolated containers on a dedicated droplet. Even if a compromised website injects instructions during a search, the damage stays contained within that sandbox. The agent cannot reach your secrets, your filesystem, or other services.
+This matters even more when agents do research. A skill that performs web searches or browses documentation can encounter prompt injection on any page it visits. The agent has no way to distinguish legitimate content from planted instructions. Sandboxing limits the blast radius. 
+For example, [DigitalOcean's one-click OpenClaw instances](https://marketplace.digitalocean.com/apps/openclaw) run agents inside isolated containers on a dedicated droplet. Even if a compromised website injects instructions during a search, the damage stays contained within that sandbox. The agent cannot reach your secrets, your filesystem, or other services.
 
 ### 4. Signing and Verification
 
@@ -142,8 +143,6 @@ If you would not run unsigned code, do not run unsigned skills.
 
 
 ## Quick Checklist
-
-Before deploying any skill:
 
 - Treat all skill descriptions as untrusted
 - Enforce instruction hierarchy in the system prompt
