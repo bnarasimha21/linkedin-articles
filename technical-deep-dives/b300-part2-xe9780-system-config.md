@@ -1,4 +1,6 @@
-# Dell PowerEdge XE9780 + 8x NVIDIA B300: Complete System Deep Dive
+# NVIDIA B300 Part 2: Dell XE9780 System Configuration
+
+> Extension of the B300 GPU deep dive video - focusing on the full server configuration
 
 ## System Architecture Overview
 
